@@ -269,35 +269,6 @@ strong {
   height: 150px;
 }
 
-.page-footer .logo {
-  display: block;
-  float: right;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 991px) {
-  .page-footer>.container {
-    height: 300px;
-  }
-
-  .page-footer .logo {
-    margin-top: 20px;
-    float: left !important;
-  }
-}
-
-@media (max-width: 400px) {
-  .page-footer .logo {
-    height: 15px;
-  }
-}
-
-@media (max-width: 300px) {
-  .page-footer .logo {
-    height: 10px;
-  }
-}
-
 .page-footer .left {
   padding-bottom: 5px;
   text-align: left;
@@ -311,18 +282,6 @@ strong {
 .page-footer .icons img {
   border-radius: 2px;
   margin-left: 15px;
-}
-
-@media (max-width: 991px) {
-  .page-footer .right {
-    float: left;
-    padding-left: 15px;
-  }
-
-  .page-footer .icons img {
-    margin-right: 15px;
-    margin-left: 0px;
-  }
 }
 
 .page-footer .clear {
